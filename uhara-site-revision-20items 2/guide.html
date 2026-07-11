@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ご利用案内｜うはら在宅診療所</title>
+  <meta name="description" content="診療開始までの流れ、診療時間、診療費用、診療地域をご案内します。">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <a class="logo" href="index.html" aria-label="うはら在宅診療所 ホーム">
+        <img class="logo-symbol" src="assets/uhara-logo-transparent.png" alt="うはら在宅診療所のウサギロゴ">
+      </a>
+      <a class="clinic-name" href="index.html">
+        <strong>うはら在宅診療所</strong>
+        <small>UHARA HOME CARE CLINIC</small>
+      </a>
+    </div>
+    <nav class="nav" aria-label="主要ナビゲーション">
+      <a href="index.html">ホーム</a>
+      <a href="about.html">当院について</a>
+      <a href="doctor.html">医師紹介</a>
+      <a href="homecare.html">在宅医療</a>
+      <a href="services.html">診療内容</a>
+      <a href="target.html">対象の方</a>
+      <a href="guide.html">ご利用案内</a>
+      <a href="standards-dx.html">施設基準・DX</a>
+      <a href="contact.html">アクセス・お問い合わせ</a>
+    </nav>
+    <a class="header-tel" href="tel:0559415930">055-941-5930</a>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero warm">
+  <div class="container">
+    <p class="breadcrumb">ホーム ＞ ご利用案内</p>
+    <h1 class="serif">診療開始までの流れ</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="flow-grid">
+      <article><span>01</span><h3>お問い合わせ</h3><p>お電話またはメールよりご相談ください。</p></article>
+      <article><span>02</span><h3>状況確認</h3><p>患者さんの病状、生活環境、介護状況、ご希望を確認します。</p></article>
+      <article><span>03</span><h3>初回面談</h3><p>診療方針、費用、緊急時の対応についてご説明します。</p></article>
+      <article><span>04</span><h3>診療開始</h3><p>定期的な訪問診療と必要時の往診を開始します。</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container info-grid">
+    <article class="panel">
+      <h2 class="serif">訪問時間</h2>
+      <dl class="def-list">
+        <dt>定期訪問診療</dt>
+        <dd>月曜日〜金曜日　9時〜18時（12/29〜1/3を除く）</dd>
+        <dt>往診</dt>
+        <dd>24時間365日ご自宅にお伺いします</dd>
+      </dl>
+    </article>
+    <article class="panel">
+      <h2 class="serif">訪問診療にかかる費用</h2>
+      <p>医療保険・介護保険が適用されます。自己負担割合、診療内容、訪問回数、居住形態により費用は異なります。</p>
+      <p class="note">正式な費用表は、届出内容・算定条件を確認のうえ掲載します。</p>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container area-grid">
+    <div>
+      <p class="label">Area</p>
+      <h2 class="serif">診療地域</h2>
+      <p>診療所所在地：〒410-1127 静岡県裾野市平松289 第一ビル201号室</p>
+      <p>訪問診療範囲は、診療所を中心とした<strong>半径16km</strong>を目安としています。</p>
+    </div>
+    <div class="map-card">
+      <div id="clinic-map-guide" class="clinic-map" role="img" aria-label="うはら在宅診療所 診療地域"></div>
+      <span class="radius-badge">半径16km</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-logo-lockup">
+        <img src="assets/uhara-logo-transparent.png" alt="うはら在宅診療所のウサギロゴ">
+        <span><strong>うはら在宅診療所</strong><small>UHARA HOME CARE CLINIC</small></span>
+      </div>
+      <p>患者様お一人おひとりの想いや価値観に寄り添い、住み慣れた場所で安心して療養できる環境づくりに努めてまいります。</p>
+    </div>
+    <div class="footer-contact">
+      <p><strong>電話</strong> <a href="tel:0559415930">055-941-5930</a></p>
+      <p><strong>FAX</strong> 055-941-5927</p>
+      <p><strong>メール</strong> <a href="mailto:uhara.homehospital@gmail.com">uhara.homehospital@gmail.com</a></p>
+      <p><strong>所在地</strong> 〒410-1127 静岡県裾野市平松289 第一ビル201号室</p>
+    </div>
+  </div>
+  <p class="copyright">© 2025 うはら在宅診療所</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="map.js"></script>
+</body>
+</html>
